@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:padding="7dp"
+    android:layout_marginBottom="5dp"
+    >
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="8dp"
+
+            >
+
+            <TextView
+                android:id="@+id/srctran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                android:textColor="#000"
+                android:text="ASDFGHJKYTK"/>
+
+            <TextView
+                android:id="@+id/desttran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="21sp"
+                android:textColor="#000"
+                android:text="ASDFGHJKYTK"/>
+
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/datetran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="Sunday, kjsavankvhskdvbksa"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D90BE6"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Fare"/>
+
+        <TextView
+            android:id="@+id/faretran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D90BE6"
+            android:textSize="35sp"
+            android:layout_gravity="center_horizontal"
+            android:text="120"/>
+
+    </LinearLayout>
+
+</LinearLayout>

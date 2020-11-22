@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchStation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get the station name to station code"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#575558"
+        />
+
+    <EditText
+        android:id="@+id/stationName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/customborder"
+        android:fontFamily="sans-serif"
+        android:hint="Enter the station name"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/getStationData"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="#4797D8"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Get Data"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/stationData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

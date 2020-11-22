@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrainTktOne">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter The Source And Destination"
+                android:textSize="22sp"
+                android:textColor="#D91717"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="80dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextViewSrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:hint="Source"
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/customborder"
+                    />
+
+                <ImageView
+                    android:id="@+id/clickDropdown"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/drop"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignTop="@id/autoCompleteTextViewSrc"
+                    android:layout_alignBottom="@id/autoCompleteTextViewSrc"
+                    android:layout_alignRight="@id/autoCompleteTextViewSrc"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextViewDest"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:hint="Destination"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/customborder"
+                    />
+
+                <ImageView
+                    android:id="@+id/clickDropdown1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/drop"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignTop="@id/autoCompleteTextViewDest"
+                    android:layout_alignBottom="@id/autoCompleteTextViewDest"
+                    android:layout_alignRight="@id/autoCompleteTextViewDest"
+                    />
+
+            </RelativeLayout>
+
+            <RadioGroup
+                android:layout_marginTop="50dp"
+                android:id="@+id/groupradio"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/radia_id3"
+                    android:text="Single"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radia_id4"
+                    android:layout_weight="1"
+                    android:text="Return"
+                    android:textSize="16sp"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:id="@+id/text_view_date"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#3A2A2A"
+                    android:textSize="16sp"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/continuetoNext"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#4797D8"
+                android:fontFamily="sans-serif"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="19dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

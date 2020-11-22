@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookMyTrip</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_essential_services">Map</string>
+
+</resources>

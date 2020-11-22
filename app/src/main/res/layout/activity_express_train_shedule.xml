@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpressTrainShedule">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter The Source And Destination"
+        android:textSize="22sp"
+        android:textColor="#D91717"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewSrc3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:hint="Source"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/customborder"
+            />
+
+        <ImageView
+            android:id="@+id/clickDropdow7"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/drop"
+            android:layout_marginRight="15dp"
+            android:layout_alignTop="@id/autoCompleteTextViewSrc3"
+            android:layout_alignBottom="@id/autoCompleteTextViewSrc3"
+            android:layout_alignRight="@id/autoCompleteTextViewSrc3"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewDest3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="18sp"
+            android:hint="Destination"
+            android:paddingLeft="10dp"
+            android:background="@drawable/customborder"
+            />
+
+        <ImageView
+            android:id="@+id/clickDropdown8"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/drop"
+            android:layout_marginRight="15dp"
+            android:layout_alignTop="@id/autoCompleteTextViewDest3"
+            android:layout_alignBottom="@id/autoCompleteTextViewDest3"
+            android:layout_alignRight="@id/autoCompleteTextViewDest3"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/ExpresssearchTrains"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#4797D8"
+        android:fontFamily="sans-serif"
+        android:text="Search Trains"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="19dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ExpresssearchTrains"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/data1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

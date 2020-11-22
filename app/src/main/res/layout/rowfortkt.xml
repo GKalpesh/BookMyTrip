@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:padding="7dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/tktnoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ticket No"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#E64A0B"
+        />
+
+    <TextView
+        android:id="@+id/srcTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Source"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/destTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/spinnerTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travellers"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/radioTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Journey"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/fareTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fare"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+
+
+
+</LinearLayout>

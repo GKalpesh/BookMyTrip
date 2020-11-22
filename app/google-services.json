@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320552881207",
+    "firebase_url": "https://bookmytrips-b02d5.firebaseio.com",
+    "project_id": "bookmytrips-b02d5",
+    "storage_bucket": "bookmytrips-b02d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320552881207:android:c30ae61230c31a2b84c3b2",
+        "android_client_info": {
+          "package_name": "com.example.bookmytrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320552881207-ntu0l0temj5eonkueqn5ttvm8at5igde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmytrip",
+            "certificate_hash": "99b887863a71c24fc9e3459bbfbef7f3f701d9b0"
+          }
+        },
+        {
+          "client_id": "320552881207-g9oogto8p5fcjdqo98m5q2uli9i7dtrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9RQOJXanxksaG_NJhgd3W0TbsDqkJPPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320552881207-g9oogto8p5fcjdqo98m5q2uli9i7dtrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
