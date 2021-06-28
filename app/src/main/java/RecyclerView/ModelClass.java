@@ -9,8 +9,6 @@ public class ModelClass {
         this.timing = timing;
     }
 
-
-
     public String getPlatform() {
         return platform;
     }
